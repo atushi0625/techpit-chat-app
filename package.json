@@ -1,0 +1,22 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "firebase": "^8.2.5",
+    "jest": "^24.1.0",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@firebase/testing": "^0.20.11",
+    "@nuxtjs/tailwindcss": "^3.4.2"
+  }
+}
